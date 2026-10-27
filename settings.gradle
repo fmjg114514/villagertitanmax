@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        maven { name = 'TencentMirror'; url = 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public/' }
+        gradlePluginPortal()
+        maven { name = 'Fabric'; url = 'https://maven.fabricmc.net/' }
+    }
+}
+
+rootProject.name = 'VillagerTitanFabric'
