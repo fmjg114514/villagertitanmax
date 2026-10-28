@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "villagertitan",
+  "version": "${version}",
+  "name": "VillagerTitan",
+  "description": "村民泰坦 + 女巫泰坦 (Fabric 26.3 / GeckoLib 5)",
+  "authors": ["titan"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.titan.VillagerTitanMod"],
+    "client": ["net.titan.client.VillagerTitanClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.3",
+    "fabric-api": "*",
+    "geckolib": "*"
+  }
+}
